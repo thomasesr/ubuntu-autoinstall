@@ -1,0 +1,10 @@
+autoinstall:
+  version: 1
+  interactive-sections:
+    - network
+    - storage
+    - identity
+    - ubuntu-pro
+    - drivers
+  codecs:
+    - install: true
